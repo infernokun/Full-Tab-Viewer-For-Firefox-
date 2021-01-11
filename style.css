@@ -1,0 +1,35 @@
+html {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 120vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+li {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+li p {
+    margin-left: 30px;
+}
+
+.close {
+    height: 20px;
+    position: relative;
+    float: left;
+    top: 3px;
+    padding: 0 auto;
+}
+
+.close:hover {
+    cursor: pointer;
+    filter: grayscale(1) invert(1);
+}
